@@ -81,8 +81,8 @@ export class TurmaFormComponent implements OnInit {
   }
 
   async salvar(form: NgForm) {
-    console.log(this.turma)
-    return
+    //console.log(this.turma)
+    //return
     if(form.valid) {
       try {
         // 1) Salvar os dados no back-end
